@@ -33,8 +33,9 @@ Tesla (site de estudo)
 
 ## Tecnologias
  - HTML 
- - CSS
+ - CSS (com ênfase em atributos de rolagem)
  - Javascript
+ 
  
 
 ## Créditos
