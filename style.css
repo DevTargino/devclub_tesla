@@ -28,9 +28,10 @@ video,
 
 
 .logo {
+    
     filter: brightness(100);
     position: fixed;
-    width: 120px;
+    width: 100px;
 }
 
 .info-carro {
@@ -122,19 +123,20 @@ button:hover {
 /* form*/
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
     position: fixed;
-    max-height: 600px;
-    max-width: 600px;
-    background: #fafafa;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    color: #151515;    
-    
     top: 50%;
-    left: -50%;  
+    left: -50%;
+ 
     transform: translate(-45%, -45%);
-    transition: ease-in-out 0.5s;
+   
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
     
 }
 .form-group {
@@ -155,7 +157,8 @@ textarea {
     font-size: 16px;
 }
 textarea {
-    height: 120px;
+    min-width: 420px;
+    max-width: 680px;
 }
 input[type="submit"] {
     background-color: #4CAF50;
@@ -180,7 +183,7 @@ input[type="submit"]:hover {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    margin-left: 30px;
+    margin-left: 230px;
    
     
 }
